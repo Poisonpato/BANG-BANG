@@ -6,7 +6,7 @@ function jugar(){
         },2000)
 
         //Sonido de disparo
-        var sfxStart = new Audio('Start.mp3');
+        var sfxStart = new Audio('start.mp3');
         sfxStart.play();
 }
 
@@ -57,7 +57,7 @@ function personaje2(){
             window.location.assign('personaje2.html');
         },2000)
 
-    var sfxStart = new Audio('Start.mp3');
+    var sfxStart = new Audio('start.mp3');
     sfxStart.play();
 }
 
@@ -70,7 +70,7 @@ function comenzarJuego(){
             window.location.assign('juego.html');
         },2000)
 
-    var sfxStart = new Audio('Start.mp3');
+    var sfxStart = new Audio('start.mp3');
     sfxStart.play();
 }
 
@@ -173,7 +173,7 @@ function disparo1(){
     setTimeout(function(){
         window.location.assign('juego.html');
     },2000);
-    var sfxStart = new Audio('Start.mp3');
+    var sfxStart = new Audio('start.mp3');
     sfxStart.play();
 }
     
@@ -196,7 +196,7 @@ function disparo2(){
     setTimeout(function(){
         window.location.assign('juego.html');
     },2000);
-    var sfxStart = new Audio('Start.mp3');
+    var sfxStart = new Audio('start.mp3');
     sfxStart.play();
 }
 
